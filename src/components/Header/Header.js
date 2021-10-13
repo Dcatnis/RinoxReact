@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col, Navbar, Nav, } from 'react-bootstrap';
-import { BrowserRouter, Route, Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 import './Header.css';
