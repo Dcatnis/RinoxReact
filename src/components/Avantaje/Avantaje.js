@@ -8,8 +8,6 @@ import './Avantaje.css';
 
 function Avantaje() {
 
-
-
     return (
         <div >
             <section className="Avantaje">

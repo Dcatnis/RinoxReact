@@ -8,6 +8,8 @@ import Servicii from "./components/Servicii/Servicii"
 import Avantaje from "./components/Avantaje/Avantaje"
 import BannerPublicitate from "./components/BannerPublicitate/BannerPublicitate"
 import Gallery from "./components/Gallery/Gallery"
+import MapForm from "./components/MapForm/MapForm"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Avantaje />
         <BannerPublicitate />
         <Gallery />
+        <MapForm />
+        <Footer />
 
 
 

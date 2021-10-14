@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, } from 'react-bootstrap'
 import './Gallery.css';
 
 
@@ -20,46 +20,39 @@ function Gallery() {
                             Lucrăm cu material de tablă cu dimensiuni pînă la 3000x1500.
                             Abordare individuală a fiecărui client.</p>
                     </div>
+                    <div className="Grid_Gallery">
+                        <div class="grid_item0">
+                            <span>Mai Mulete Servicii</span>
+                            <img src="../images/arrowicon.png" alt="icon" />
+                        </div>
+                        <div class="grid_item1">
+                            <img className="galeryimg" src="../images/galery1.png" alt="galery" />
+                        </div>
+                        <div class="grid_item2">
+                            <img className="galeryimg" src="../images/galery2.png" alt="galery" />
+                        </div>
+                        <div class="grid_item3">
+                            <img className="galeryimg" src="../images/galery3.png" alt="galery" />
+                        </div>
+                        <div class="grid_item4">
+                            <img className="galeryimg" src="../images/galery4.png" alt="galery" />
+                        </div>
+                        <div class="grid_item5">
+                            <img className="galeryimg galerydesktop" src="../images/galery5.png" alt="galery" />
+                            <img className="galeryimgmob" src="../images/galerymob.png" alt="galerymob" />
+
+                        </div>
+                        <div class="grid_item6">
+                            <img className="galeryimg" src="../images/galery6.png" alt="galery" />
+                        </div>
+                        <div class="grid_item7">
+                            <img className="galeryimg" src="../images/galery7.png" alt="galery" />
+                        </div>
 
 
-                    <Row >
-                        <Col xs={6} md={4} >
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
 
-                        <Col xs={6} md={4}>
-                            <Image src="../images/galery1.png" thumbnail />
-                        </Col>
+                    </div>
 
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                    </Row>
-
-                    {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-                    <Row>
-                        <Col xs={6} md={4}>
-                            <Image src="../images/galery1.png" thumbnail />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src="./logo.png" thumbnail />
-                        </Col>
-                    </Row>
 
 
                 </Container>

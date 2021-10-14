@@ -1,0 +1,11 @@
+.MapForm{
+    margin-bottom: 130px;
+}
+.Map{
+    position: relative;
+}
+.Formular{
+    position: absolute;
+   top: 0;
+   left: -45px;
+}

@@ -1,0 +1,17 @@
+.Footer{
+    background-color:#414342 ;
+    height: 194px;
+}
+
+.footer_nav{
+    position: relative;
+}
+.footer_nav::after{
+content: "";
+top: 0;
+left:0;
+position: absolute;
+width: 72.368%;
+border: 2px solid #B7B7B7;
+
+}
