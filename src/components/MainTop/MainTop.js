@@ -27,7 +27,7 @@ function MainTop() {
                                 sa cream orice lucrare pentru tine.</p>
                         </div>
                         <div className="banner_btn">
-                            <Button variant="primary">Comanda Acum</Button>{' '}
+                            <Button variant="primary topbuton">Comanda Acum</Button>{' '}
                         </div>
 
                     </div>

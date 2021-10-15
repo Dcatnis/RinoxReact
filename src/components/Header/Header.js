@@ -38,7 +38,7 @@ function Header() {
                                     <Nav.Link> <Link className="nav_links" to="/MainTop"> Despre Noi </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link> <Link className="nav_links" to="/"> Servicii </Link></Nav.Link>
+                                    <Nav.Link> <Link className="nav_links" to="Detalii"> Servicii </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
                                     <Nav.Link> <Link className="nav_links" to="/"> Contacte </Link></Nav.Link>

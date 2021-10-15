@@ -1,10 +1,9 @@
 import React, { useState } from "react"
 import { Container, Carousel, } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 import '../Slider.css';
 
 
-function Slider1() {
+function Slider2() {
 
     const [index, setIndex] = useState(0);
 
@@ -17,7 +16,7 @@ function Slider1() {
         <Container>
             <div className="slider">
                 <div class="slider_tittle">
-                    <h1>Tăierea cu laser a metalului până la 10 mm.</h1>
+                    <h1>Scări, balustrade și garduri publice</h1>
                 </div>
                 <div class="slider_flex">
                     <div class="slider_content">
@@ -50,13 +49,13 @@ function Slider1() {
                             <div className="bgarrow">
                                 <img src="./images/bgarrow.svg" alt="arrow" />
                             </div>
-                            <Link to="/Detalii"> Detalii Proiect </Link>
+                            Detalii Proiect
                         </div>
                         <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="./images/slider1.png"
+                                    src="./images/slider5.png"
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
@@ -112,7 +111,7 @@ function Slider1() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="./images/slider5.png"
+                                    src="./images/slider1.png"
                                     alt="Third slide"
                                 />
 
@@ -140,4 +139,4 @@ function Slider1() {
     );
 }
 
-export default Slider1;
+export default Slider2;

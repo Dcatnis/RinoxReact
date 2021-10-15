@@ -2,7 +2,7 @@
     background: url(../images/banercomanda.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 130px;
+    
 }
 .banner_flex{
    display: flex;
@@ -24,7 +24,18 @@ color: #FFFFFF;
 }
 
 .banerbtn{
-    width: 42%;
+    width: 45%;
+    background: #FFFFFF;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+color: #000000;
+border: none;
+border-radius: 0%;
+padding: 10px 0px;
     
 }
 
