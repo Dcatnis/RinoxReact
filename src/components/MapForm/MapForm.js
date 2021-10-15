@@ -12,7 +12,7 @@ function MapForm() {
         <div >
             <section className="MapForm">
                 <div className="Map">
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1EA_MvLnOg-I85nNJ1hhj2Zxsxku_5ali" width="100%" height="525" allowTransparency></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1EA_MvLnOg-I85nNJ1hhj2Zxsxku_5ali" width="100%" height="520" allowTransparency></iframe>
 
                     <div className="Formular">
                         <Forma />

@@ -1,0 +1,20 @@
+.TopPortofoliu{
+    background: url(../../images/portofoliubaner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.container_title{
+    width:61.228% ;
+}
+
+
+.profile_tittle{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 120%;
+color: #FFFFFF;
+}

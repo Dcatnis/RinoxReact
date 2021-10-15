@@ -32,10 +32,10 @@ function Header() {
                                     <Nav.Link> <Link className="nav_links" to="/"> Principala </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link> <Link className="nav_links" to="/"> Portofoliu </Link></Nav.Link>
+                                    <Nav.Link> <Link className="nav_links" to="/Portofoliu"> Portofoliu </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link> <Link className="nav_links" to="/"> Despre Noi </Link></Nav.Link>
+                                    <Nav.Link> <Link className="nav_links" to="/MainTop"> Despre Noi </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
                                     <Nav.Link> <Link className="nav_links" to="/"> Servicii </Link></Nav.Link>
