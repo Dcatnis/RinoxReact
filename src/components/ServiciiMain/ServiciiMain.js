@@ -1,5 +1,6 @@
 import React from "react"
 import { BrowserRouter } from "react-router-dom";
+import { Container } from 'react-bootstrap';
 import './ServiciiMain.css';
 import Gallery1 from "./ServiciiList/Gallery1";
 import Gallery2 from "./ServiciiList/Gallery2";
@@ -11,8 +12,22 @@ import Gallery5 from "./ServiciiList/Gallery5";
 function ServiciiMain() {
     return (
         <BrowserRouter>
-            <div>
+            <div className="serviciimain">
+                <div className="TopPortofoliu">
 
+                    <Container>
+                        <div class="container_title">
+                            <h1 class="profile_tittle">Toata Gama de servicii</h1>
+                        </div>
+
+
+                    </Container>
+                </div>
+                <Gallery1 />
+                <Gallery2 />
+                <Gallery3 />
+                <Gallery4 />
+                <Gallery5 />
 
 
 

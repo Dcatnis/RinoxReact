@@ -9,6 +9,7 @@ import Main from "./components/Main/Main";
 import Detalii from "./components/Portofoliu/Detalii/Detalii"
 import DespreNoi from "./components/DespreNoi/DespreNoi"
 import Contacte from "./components/Contacte/Contacte"
+import ServiciiMain from "./components/ServiciiMain/ServiciiMain";
 
 
 
@@ -22,6 +23,10 @@ function App() {
 
           <Route path="/Detalii" component={Detalii} >
             <Detalii />
+          </Route>
+
+          <Route path="/ServiciiMain" component={ServiciiMain} >
+            <ServiciiMain />
           </Route>
 
           <Route path="/Contacte" component={Contacte} >
