@@ -149,8 +149,8 @@ label {
     width:58.421%;
     color:#fff;
     padding:12px 0;
-    margin-top:25px;
-    margin-bottom:40px ;
+    margin-top:0px;
+    margin-bottom:0px ;
   }
   
   .modal-header{
@@ -168,5 +168,5 @@ label {
   }
 
   .row{
-    margin-bottom: 25px;
+    margin-bottom: 5px;
   }

@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import { Container, Carousel, } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import '../Slider.css';
+import '../../Portofoliu.css';
+
+
 
 
 function Slider1() {
@@ -50,7 +52,7 @@ function Slider1() {
                             <div className="bgarrow">
                                 <img src="./images/bgarrow.svg" alt="arrow" />
                             </div>
-                            <Link to="/Detalii"> Detalii Proiect </Link>
+                            <Link to="Portofoliu/PortofoliuMain/Detalii"> Detalii Proiect </Link>
                         </div>
                         <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
                             <Carousel.Item>

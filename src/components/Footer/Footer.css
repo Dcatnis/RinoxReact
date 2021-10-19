@@ -52,6 +52,7 @@ color: #FFFFFF;
 }
 .footer_logo img{
     margin-bottom: 13px;
+    width: 100%;
 }
 .fmob{
 display: none;

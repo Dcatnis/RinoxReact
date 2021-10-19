@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Container, Carousel, } from 'react-bootstrap';
-import '../Slider.css';
+import '../../Slider.css';
 
 
 function Slider5() {

@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { Container, Carousel, } from 'react-bootstrap';
-import '../Slider.css';
+import '../../Slider.css';
 
 
-function Slider2() {
+function Slider4() {
 
     const [index, setIndex] = useState(0);
 
@@ -16,7 +16,7 @@ function Slider2() {
         <Container>
             <div className="slider">
                 <div class="slider_tittle">
-                    <h1>Scări, balustrade și garduri publice</h1>
+                    <h1>Decor si suprapuneri pe poartă</h1>
                 </div>
                 <div class="slider_flex">
                     <div class="slider_content">
@@ -55,7 +55,7 @@ function Slider2() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="./images/slider5.png"
+                                    src="./images/slider4.png"
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
@@ -96,7 +96,7 @@ function Slider2() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="./images/slider4.png"
+                                    src="./images/slider1.png"
                                     alt="Third slide"
                                 />
 
@@ -111,7 +111,7 @@ function Slider2() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="./images/slider1.png"
+                                    src="./images/slider5.png"
                                     alt="Third slide"
                                 />
 
@@ -139,4 +139,4 @@ function Slider2() {
     );
 }
 
-export default Slider2;
+export default Slider4;
