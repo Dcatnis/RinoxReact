@@ -2,6 +2,9 @@ import React from "react"
 
 import { Button, Container } from 'react-bootstrap';
 import './MainTop.css';
+import MyVerticallyCenteredModal from "../Modal/Modal"
+
+
 
 
 
@@ -9,7 +12,7 @@ import './MainTop.css';
 
 function MainTop() {
 
-
+    const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <div >
@@ -27,11 +30,17 @@ function MainTop() {
                                 sa cream orice lucrare pentru tine.</p>
                         </div>
                         <div className="banner_btn">
-                            <Button variant="primary topbuton">Comanda Acum</Button>{' '}
+                            <Button variant="primary topbuton" onClick={() => setModalShow(true)}>Comanda Acum</Button>{' '}
                         </div>
 
                     </div>
                 </Container>
+
+
+                <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                />
 
             </section>
 
@@ -44,3 +53,4 @@ function MainTop() {
 }
 
 export default MainTop;
+

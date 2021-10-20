@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './Portofoliu.css';
-import Detalii from "./Detalii/Detalii";
+import Detalii from "../Portofoliu/Detalii/Detalii";
 import PortofoliuMain from "./PortofoliuMain/PortofoliuMain"
 
 function Portofoliu() {
@@ -22,7 +22,6 @@ function Portofoliu() {
                 </Switch>
 
 
-                <Link to="/Detalii"> Detalii Proiect </Link>
 
             </div>
         </BrowserRouter >

@@ -81,7 +81,7 @@ class Forma extends React.Component {
 
     return (
       <div >
-        <form action="send-contact.php" method="POST" className="form" id="toForm">
+        <form action="send-contact.php" method="POST" className="form modalform" id="toForm">
           <div className="form-title">Formular</div>
 
 

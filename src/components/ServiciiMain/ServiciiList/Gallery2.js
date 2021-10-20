@@ -2,9 +2,11 @@ import React from "react"
 import { BrowserRouter } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import './Gallery.css';
+import MyVerticallyCenteredModal from "../../Modal/Modal"
 
 
 function Gallery2() {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <BrowserRouter>
             <div className="gallery2">
@@ -52,7 +54,7 @@ function Gallery2() {
                                         <li>  Suporturi pentru flori</li>
                                     </div>
                                 </div>
-                                <button class="gallery-btn">Comanda Acum</button>
+                                <button class="gallery-btn" onClick={() => setModalShow(true)}>Comanda Acum</button>
                             </div>
                             <div class="gallery-main-image gallery2-img">
                                 <img src="./images/gallerymain2.png" alt="galery" />
@@ -85,6 +87,10 @@ function Gallery2() {
 
 
                 </Container >
+                <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                />
             </div>
         </BrowserRouter >
     );

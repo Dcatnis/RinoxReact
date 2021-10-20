@@ -30,6 +30,13 @@ color: #414342;
 .grid_item0{
    
     grid-area: item0;
+
+}
+.grid_item0 img{
+    margin-left: 14px;
+}
+
+.servicii-link{
     font-family: Manrope;
 font-style: normal;
 font-weight: bold;
@@ -37,11 +44,8 @@ font-size: 24px;
 line-height: 150%;
 color: #000000;
 }
-.grid_item0 img{
-    margin-left: 14px;
-}
-.grid_item0 span:hover{
-    color: grey;
+.servicii-link:hover{
+    color: grey !important;
 }
 
 .grid_item1{

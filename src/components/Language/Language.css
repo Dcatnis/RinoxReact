@@ -1,0 +1,50 @@
+.LangMain{
+width: 950px;
+    
+    
+}
+
+
+.language{
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+   
+    
+  
+   
+  }
+
+ 
+  .langbtn{
+    color: black;
+    background-color: white;
+    width: 50px;
+    border: 1px solid black;
+  
+  }
+  
+  .langbtn:hover{
+    background-color: tomato;
+    cursor: pointer;
+  }
+  .langcontainer{
+    display: none;
+    color: black;
+    position: absolute;
+   background-color: rgb(133, 130, 130);
+   border: 1px solid black;
+  
+  }
+  .langcontainer li{
+  width: 50px;
+  list-style: none;
+  
+  }
+  .langcontainer li:hover{
+  background-color: tomato;
+  cursor: pointer;
+  }
+  .show{
+  display: block;
+  }

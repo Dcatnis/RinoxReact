@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, } from 'react-bootstrap'
+import { Link } from "react-router-dom";
 import './Gallery.css';
 
 
@@ -22,7 +23,7 @@ function Gallery() {
                     </div>
                     <div className="Grid_Gallery">
                         <div class="grid_item0">
-                            <span>Mai Mulete Servicii</span>
+                            <Link className="servicii-link" to="/ServiciiMain"> Mai multe Servicii </Link>
                             <img src="../images/arrowicon.png" alt="icon" />
                         </div>
                         <div class="grid_item1">

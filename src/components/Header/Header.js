@@ -3,6 +3,7 @@ import { Container, Row, Col, Navbar, Nav, } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 
+
 import './Header.css';
 
 function Header() {
@@ -44,13 +45,14 @@ function Header() {
                                     <Nav.Link> <Link className="nav_links" to="Contacte"> Contacte </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link> <Link className="nav_links" to="/"> RO/RU </Link></Nav.Link>
+                                    <Nav.Link> <Link className="nav_links last-item" to="/">RO/RU </Link></Nav.Link>
                                 </Nav.Item>
+
                             </Nav>
 
                             <div className="mobile">
                                 <div className="mob-lang">
-                                    RU/RO
+                                    <span>RO</span>/<span>RU</span>
 
                                 </div>
                                 <div >

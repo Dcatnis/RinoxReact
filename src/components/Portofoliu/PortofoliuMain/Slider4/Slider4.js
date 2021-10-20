@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Container, Carousel, } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import '../../Slider.css';
 
 
@@ -37,7 +38,7 @@ function Slider4() {
                         </div>
 
                         <div class="slider_detalii">
-                            Detalii despre servicii
+                            <Link className="servicii-link" to="/ServiciiMain"> Detalii despre servicii</Link>
                             <img src="./images/arrowicon.png" alt="arrow" />
                         </div>
 

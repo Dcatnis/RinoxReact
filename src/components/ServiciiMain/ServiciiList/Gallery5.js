@@ -2,9 +2,11 @@ import React from "react"
 import { BrowserRouter } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import './Gallery.css';
+import MyVerticallyCenteredModal from "../../Modal/Modal"
 
 
 function Gallery5() {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <BrowserRouter>
             <div className="gallery1">
@@ -16,41 +18,65 @@ function Gallery5() {
                         <div className="gallery-content-flex">
 
                             <div class="about-gallery-container">
-                                <h3 class="gallery-subtittle">Compania RINOX produce echipamente industriale:
+                                <h3 class="gallery-subtittle">Scări, balustrade și balustrade din oțel inoxidabil
                                 </h3>
 
                                 <div class="about-gallery-content">
 
-                                    <li>- mese din inox;</li>
-                                    <li>- rafturi, rafturi din oțel inoxidabil;</li>
-                                    <li>- standuri pentru echipamente;</li>
-                                    <li>- chiuvete din inox;</li>
-                                    <li>- hote din inox;</li>
-                                    <li>- cărucioare din oțel inoxidabil</li>
+                                    <p> Scările, balustradele și gardurile publice din oțel inoxidabil sunt suporturi fiabile și durabile care îndeplinesc cerințele estetice
+
+                                    </p>
+
+                                    <li>SCARI, SINE ȘI GRADURI
+
+                                    </li>
+                                    <li>-Scari si structuri de scari</li>
+                                    <li>-Sinele
+                                    </li>
+                                    <li>- Feronerie pentru balustrade și scări
+
+                                    </li>
+                                    <li>-Garduri de orice configurație
+
+                                    </li>
+                                    <li>-Componente pentru garduri
+
+                                    </li>
+                                    <li>-Tevi
+
+
+                                    </li>
+
+                                    <li>-Support balustrade
+
+                                    </li>
+                                    <li>- Mașini de tocat
+
+                                    </li>
                                 </div>
-                                <button class="gallery-btn">Comanda Acum</button>
+                                <button class="gallery-btn" onClick={() => setModalShow(true)}>Comanda Acum</button>
                             </div>
                             <div class="gallery-main-image">
-                                <img src="./images/gallerymain.png" alt="galery" />
+                                <img src="./images/gallerymain5.png" alt="galery" />
                             </div>
                         </div>
 
                         <div class="gallery-images-container">
 
                             <div class="gallery-image-item">
-                                <img src="./images/gallery1img1.png" alt="galery" />
+                                <img src="./images/gallery5img1.png" alt="galery" />
                             </div>
                             <div class="gallery-image-item">
-                                <img src="./images/gallery1img2.png" alt="galery" />
+                                <img src="./images/gallery5img2.png" alt="galery" />
                             </div>
                             <div class="gallery-image-item">
-                                <img src="./images/gallery1img3.png" alt="galery" />
+                                <img src="./images/gallery5img3.png" alt="galery" />
                             </div>
                             <div class="gallery-image-item">
-                                <img src="./images/gallery1img4.png" alt="galery" />
+                                <img src="./images/gallery5img4.png" alt="galery" />
                             </div>
                             <div class="gallery-image-item">
-                                <img src="./images/gallery1img5.png" alt="galery" />
+                                <img src="./images/gallery5img5.png" alt="galery" />
                             </div>
                         </div>
 
@@ -61,6 +87,10 @@ function Gallery5() {
 
 
                 </Container >
+                <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                />
             </div>
         </BrowserRouter >
     );
