@@ -1,8 +1,4 @@
-.LangMain{
-width: 950px;
-    
-    
-}
+
 
 
 .language{
@@ -25,7 +21,7 @@ width: 950px;
   }
   
   .langbtn:hover{
-    background-color: tomato;
+    background-color: grey;
     cursor: pointer;
   }
   .langcontainer{
@@ -37,12 +33,12 @@ width: 950px;
   
   }
   .langcontainer li{
-  width: 50px;
+  width: 47px;
   list-style: none;
   
   }
   .langcontainer li:hover{
-  background-color: tomato;
+  background-color: white;
   cursor: pointer;
   }
   .show{

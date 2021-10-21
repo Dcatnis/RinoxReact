@@ -50,7 +50,7 @@ function Slider5() {
                             <div className="bgarrow">
                                 <img src="./images/bgarrow.svg" alt="arrow" />
                             </div>
-                            Detalii Proiect
+                            <a href="/Detalii"> Detalii Proiect </a>
                         </div>
                         <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
                             <Carousel.Item>

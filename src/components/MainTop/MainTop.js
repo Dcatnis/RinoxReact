@@ -3,6 +3,8 @@ import React from "react"
 import { Button, Container } from 'react-bootstrap';
 import './MainTop.css';
 import MyVerticallyCenteredModal from "../Modal/Modal"
+import { useTranslation } from 'react-i18next';
+
 
 
 
@@ -13,21 +15,19 @@ import MyVerticallyCenteredModal from "../Modal/Modal"
 function MainTop() {
 
     const [modalShow, setModalShow] = React.useState(false);
-
+    const [t] = useTranslation();
     return (
         <div >
             <section className="Banner">
                 <Container>
                     <div className="banner_left">
                         <div className="banner_tittle">
-                            <h1>Lucrari din otel Inoxidabil pur</h1>
+                            <h1>{t('Header.title')}</h1>
                         </div>
                         <div className="banner_container">
-                            <p >Campania Rinox.md va propune sa vedeti lucrarile noastre din otel inoxidabil pur.</p>
+                            <p >{t('Header.subtitle1')}</p>
 
-                            <p>Toate aceste lucrari pot fi ale tale,
-                                trebuie doar sa ne scrii despre dorintele tale si vom fi bucurosi
-                                sa cream orice lucrare pentru tine.</p>
+                            <p>{t('Header.subtitle2')}</p>
                         </div>
                         <div className="banner_btn">
                             <Button variant="primary topbuton" onClick={() => setModalShow(true)}>Comanda Acum</Button>{' '}

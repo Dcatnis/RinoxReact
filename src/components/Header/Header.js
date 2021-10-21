@@ -50,14 +50,14 @@ function Header() {
                                     <Nav.Link> <Link className="nav_links" to="Contacte"> Contacte </Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link>cvc</Nav.Link>
+                                    <Nav.Link><Language /></Nav.Link>
                                 </Nav.Item>
 
                             </Nav>
 
                             <div className="mobile">
                                 <div className="mob-lang">
-                                    <span>RO</span>/<span>RU</span>
+                                    <Language />
 
                                 </div>
                                 <div className="burger-content">
