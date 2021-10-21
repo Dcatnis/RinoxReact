@@ -1,30 +1,16 @@
 import React from "react"
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import './Portofoliu.css';
-import Detalii from "../Portofoliu/Detalii/Detalii";
 import PortofoliuMain from "./PortofoliuMain/PortofoliuMain"
 
 function Portofoliu() {
+
     return (
-        <BrowserRouter>
-            <div>
-                <Switch>
+        <>
 
+            <PortofoliuMain />
 
-                    <Route exact path="/Detalii" component={Detalii} >
-                        <Detalii />
-                    </Route>
+        </>
 
-                    <Route path="/" component={PortofoliuMain} >
-                        <PortofoliuMain />
-                    </Route>
-
-                </Switch>
-
-
-
-            </div>
-        </BrowserRouter >
     );
 }
 

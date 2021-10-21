@@ -46,6 +46,38 @@ text-decoration: none;
     margin-left: auto;
 }
 
+.burger-content{
+    position: relative;
+}
+
+
+.menu-burger-container {
+    position: absolute;
+    display: none;
+top: 48px;
+left: -118px;
+background-color:#414342 ;
+width: 150px;
+text-align: center;
+}
+.active{
+    display: block;
+}
+.menu-burger-container ul{
+    padding: 0;
+    
+}
+.menu-burger-container li{
+    list-style: none;
+    margin-bottom: 10px;
+   
+}
+.menu-burger-container li:hover{
+    background-color: grey;
+    text-decoration: unset;
+   
+}
+
 @media screen and (max-width: 995px) {
     .desktop{
         display: none;
